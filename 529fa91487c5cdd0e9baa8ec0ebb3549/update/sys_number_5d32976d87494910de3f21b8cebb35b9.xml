@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_ad_apps_ad_request">x_snc_ad_apps_ad_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ADREQ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 19:55:10</sys_created_on>
+        <sys_id>5d32976d87494910de3f21b8cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADREQ</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_number_5d32976d87494910de3f21b8cebb35b9</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 19:55:10</sys_updated_on>
+    </sys_number>
+</record_update>

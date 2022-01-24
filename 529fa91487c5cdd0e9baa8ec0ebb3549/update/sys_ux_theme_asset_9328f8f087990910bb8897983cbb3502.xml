@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>Carhartt Logo</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-24 11:02:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9328f8f087990910bb8897983cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carhartt Logo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_9328f8f087990910bb8897983cbb3502</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-24 11:02:40</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4d3806</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>carhartt-logo.png</file_name>
+        <hash>7104bfc63bb5a1c5b4f5cd27609a6e7ce40000c0d2d901ee417dc685d3464a67</hash>
+        <image_height>34</image_height>
+        <image_width>234</image_width>
+        <size_bytes>3150</size_bytes>
+        <size_compressed>2892</size_compressed>
+        <state>available</state>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-24 11:08:19</sys_created_on>
+        <sys_id>e989b07487990910bb8897983cbb3524</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-24 11:08:20</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>9328f8f087990910bb8897983cbb3502</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="carhartt-logo.png" sys_id="e989b07487990910bb8897983cbb3524">e989b07487990910bb8897983cbb3524</sys_attachment>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-24 11:08:19</sys_created_on>
+        <sys_id>2d89b07487990910bb8897983cbb3524</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3844</length>
+        <position>1</position>
+        <sys_attachment display_value="carhartt-logo.png" sys_id="e989b07487990910bb8897983cbb3524">e989b07487990910bb8897983cbb3524</sys_attachment>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-24 11:08:19</sys_created_on>
+        <sys_id>ad89b07487990910bb8897983cbb3524</sys_id>
+    </sys_attachment_doc>
+</record_update>

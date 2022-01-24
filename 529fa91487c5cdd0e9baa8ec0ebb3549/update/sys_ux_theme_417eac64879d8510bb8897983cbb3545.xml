@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Carhartt</name>
+        <parent display_value="Default">a309795273230010fd843c78caf6a724</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-23 15:42:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>417eac64879d8510bb8897983cbb3545</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Carhartt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_ux_theme_417eac64879d8510bb8897983cbb3545</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-23 16:00:31</sys_updated_on>
+        <theme>{&#13;
+    "--now-color_brand--primary": "#FFFFFF",&#13;
+    "--now-color--primary-1": "0,119,73",&#13;
+    "--now-color--secondary-1": "0,86,117"&#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

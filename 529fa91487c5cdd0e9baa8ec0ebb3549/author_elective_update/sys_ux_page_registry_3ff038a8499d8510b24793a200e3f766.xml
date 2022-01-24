@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>37f038a8ca9d8510b60c72f80c545769</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path>carhartt</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-23 15:52:36</sys_created_on>
+        <sys_id>3ff038a8499d8510b24793a200e3f766</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carhartt</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_ux_page_registry_3ff038a8499d8510b24793a200e3f766</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-23 15:52:36</sys_updated_on>
+        <title>Carhartt</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sys_ux_page_registry_3ff038a8499d8510b24793a200e3f766</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>37f038a8ca9d8510b60c72f80c545769</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app/><path>carhartt</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>chris.bennett</sys_created_by><sys_created_on>2022-01-23 15:52:36</sys_created_on><sys_id>3ff038a8499d8510b24793a200e3f766</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Carhartt</sys_name><sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package><sys_policy/><sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope><sys_update_name>sys_ux_page_registry_3ff038a8499d8510b24793a200e3f766</sys_update_name><sys_updated_by>chris.bennett</sys_updated_by><sys_updated_on>2022-01-23 15:52:36</sys_updated_on><title>Carhartt</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-2095606535</payload_hash>
+        <record_name>Carhartt</record_name>
+        <reverted_from/>
+        <source>e865f82387010110de3f21b8cebb354f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-01-20 13:37:50</sys_created_on>
+        <sys_id>fa6c5ff487514910de3f21b8cebb353f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17e77b52fb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>ba6c5ff4e2514910ea7040c8df05293f</update_guid>
+        <update_guid_history>ba6c5ff4e2514910ea7040c8df05293f:-2095606535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 23:00:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0038386289d94aad800211a028fd8861</sys_id>
+        <sys_metadata>3ff038a8499d8510b24793a200e3f766</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carhartt</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_3ff038a8499d8510b24793a200e3f766</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_3ff038a8499d8510b24793a200e3f766">fa6c5ff487514910de3f21b8cebb353f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 23:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

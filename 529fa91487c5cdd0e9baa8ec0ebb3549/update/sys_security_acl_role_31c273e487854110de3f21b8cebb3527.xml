@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-11 19:43:32</sys_created_on>
+        <sys_id>31c273e487854110de3f21b8cebb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>01c2ffa487854110de3f21b8cebb3575.snc_internal</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_security_acl display_value="01c2ffa487854110de3f21b8cebb3575">c9c233e4948541108c160ef569aa9703</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_31c273e487854110de3f21b8cebb3527</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-11 19:43:32</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>53b27fa487854110de3f21b8cebb3521</transaction_id>
+    </sys_security_acl_role>
+</record_update>

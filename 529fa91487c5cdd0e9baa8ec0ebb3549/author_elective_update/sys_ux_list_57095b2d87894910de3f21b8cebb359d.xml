@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="DELETE">
+        <active>true</active>
+        <category display_value="ADProcessing">db095b2d87894910de3f21b8cebb359b</category>
+        <columns>user_name,name,email,active,sys_created_on,sys_updated_on</columns>
+        <condition/>
+        <configuration display_value="AD Apps_menu_config">9b095b2d87894910de3f21b8cebb355c</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>50</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 20:25:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57095b2d87894910de3f21b8cebb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_ux_list_57095b2d87894910de3f21b8cebb359d</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 20:25:03</sys_updated_on>
+        <table>x_snc_ad_apps_adprocessing</table>
+        <title>All</title>
+    </sys_ux_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sys_ux_list_57095b2d87894910de3f21b8cebb359d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list"><sys_ux_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="ADProcessing">db095b2d87894910de3f21b8cebb359b</category><columns>user_name,name,email,active,sys_created_on,sys_updated_on</columns><condition/><configuration display_value="AD Apps_menu_config">9b095b2d87894910de3f21b8cebb355c</configuration><group_by_column/><groups/><list_attributes/><order>50</order><roles/><sys_class_name>sys_ux_list</sys_class_name><sys_created_by>chris.bennett</sys_created_by><sys_created_on>2022-01-14 20:25:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>57095b2d87894910de3f21b8cebb359d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package><sys_policy/><sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope><sys_update_name>sys_ux_list_57095b2d87894910de3f21b8cebb359d</sys_update_name><sys_updated_by>chris.bennett</sys_updated_by><sys_updated_on>2022-01-14 20:25:03</sys_updated_on><table>x_snc_ad_apps_adprocessing</table><title>All</title></sys_ux_list></record_update>]]></payload>
+        <payload_hash>1312131450</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>5e9fa91487c5cdd0e9baa8ec0ebb354b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 20:25:03</sys_created_on>
+        <sys_id>93095b2d87894910de3f21b8cebb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e5a43dc350000001</sys_recorded_at>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 20:25:03</sys_updated_on>
+        <type>UX List</type>
+        <update_guid>9b095b2d9a8949109fb78e783bf32a9e</update_guid>
+        <update_guid_history>9b095b2d9a8949109fb78e783bf32a9e:1312131450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-19 16:50:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list">sys_ux_list</sys_db_object>
+        <sys_id>4d1602235eb24f2089c99e1d7b4f1710</sys_id>
+        <sys_metadata>57095b2d87894910de3f21b8cebb359d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sys_ux_list_57095b2d87894910de3f21b8cebb359d</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_57095b2d87894910de3f21b8cebb359d">93095b2d87894910de3f21b8cebb359f</sys_update_version>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">c5c2ffa43685411073f69a14ec96e1f5</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-11 19:43:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5c233e403854110af01a54a013fce06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>m2m_app_config_theme_c5c233e403854110af01a54a013fce06</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-11 19:43:31</sys_updated_on>
+        <theme display_value="Light Theme">0dc2ffa4188541108a5e0445fe149cf4</theme>
+        <ux_app_configuration display_value="AD Apps Config">8dc2ffa487854110de3f21b8cebb3574</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

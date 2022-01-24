@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Add a User to AD">9a8df6f287c10550de3f21b8cebb35a9</sc_cat_item>
+        <sc_category display_value="Active Directory">03563b6c87854110de3f21b8cebb3587</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-18 15:37:16</sys_created_on>
+        <sys_id>aa8dfef287c10550de3f21b8cebb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Directory.Add a User to AD</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sc_cat_item_category_aa8dfef287c10550de3f21b8cebb354d</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-18 15:37:16</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

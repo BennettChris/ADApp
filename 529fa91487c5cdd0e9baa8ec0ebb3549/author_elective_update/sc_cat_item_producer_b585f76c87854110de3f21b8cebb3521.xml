@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Used to create a new user</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AD Repo</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Chris Bennett">684aba6fdb94cd901823c04b1396194c</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b585f76c87854110de3f21b8cebb3521&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
+        <script/>
+        <short_description>Active Directory Repository</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-11 19:55:33</sys_created_on>
+        <sys_id>b585f76c87854110de3f21b8cebb3521</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>AD Repo</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sc_cat_item_producer_b585f76c87854110de3f21b8cebb3521</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 18:37:56</sys_updated_on>
+        <table_name>x_snc_ad_apps_ad_repo</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_associated_task/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=b585f76c87854110de3f21b8cebb3521"/>
+    <fx_price action="DELETE" query="id=b585f76c87854110de3f21b8cebb3521"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>b585f76c87854110de3f21b8cebb3521</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-11 19:55:33</sys_created_on>
+        <sys_id>3585f76c87854110de3f21b8cebb3524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-11 19:55:33</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sc_cat_item_producer_b585f76c87854110de3f21b8cebb3521</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out&gt;false&lt;/checked_out&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;Used to create a new user&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;AD Repo&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value="Chris Bennett"&gt;684aba6fdb94cd901823c04b1396194c&lt;/owner&gt;&lt;picture/&gt;&lt;post_insert_script/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=b585f76c87854110de3f21b8cebb3521&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template display_value="AES Record Producer"&gt;211f71ca73202010ae42d31ee2f6a785&lt;/sc_template&gt;&lt;script/&gt;&lt;short_description&gt;Active Directory Repository&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state&gt;published&lt;/state&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-11 19:55:33&lt;/sys_created_on&gt;&lt;sys_id&gt;b585f76c87854110de3f21b8cebb3521&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;AD Repo&lt;/sys_name&gt;&lt;sys_package display_value="AD Apps" source="x_snc_ad_apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_b585f76c87854110de3f21b8cebb3521&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-13 18:37:56&lt;/sys_updated_on&gt;&lt;table_name&gt;x_snc_ad_apps_ad_repo&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;u_associated_task/&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b585f76c87854110de3f21b8cebb3521"/&gt;&lt;fx_price action="delete_multiple" query="id=b585f76c87854110de3f21b8cebb3521"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;b585f76c87854110de3f21b8cebb3521&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-11 19:55:33&lt;/sys_created_on&gt;&lt;sys_id&gt;3585f76c87854110de3f21b8cebb3524&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-11 19:55:33&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>140250746</payload_hash>
+        <record_name>AD Repo</record_name>
+        <reverted_from/>
+        <source>5e9fa91487c5cdd0e9baa8ec0ebb354b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 18:37:56</sys_created_on>
+        <sys_id>e8f6b555870d8510de3f21b8cebb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e54bb6e8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 18:37:56</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>90f6b555920d8510cc67adce54e8728a</update_guid>
+        <update_guid_history>90f6b555920d8510cc67adce54e8728a:140250746,3f7bb3a8acc5411003ce56370c4228c1:453592563,737bb3a894c5411001cdc4b442f2a4a2:1466069001,f76b33a8f3c54110bac9ef3bd5bfd203:-964021693,f76bff6870c54110fc14567d877d93e3:1365410824,7f5b3f688ec54110b182e05cfe44e2a4:-964021693,735b3f688ec541105f00241103fe3f52:1365410824,c35bfb6859c5411085a57a99b31e616b:-964021693,46d6b32094c54110aebf0e6301c008d1:-1290081198,46d6b32057c54110fd0164334dd182a4:1370278905,75d6b3206bc54110071fee0af1fed47c:-1290081198,4ad5f3ace2854110205a29d38a2a712e:-734271454,d1b5bf6c8985411012dc429290548a6f:1370278905,07a53f6cf38541101a118069911f3f95:1659014518,0a85f76c018541102f2f6fd6308eba28:1036457517</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AD Repo">20f6f555870d8510de3f21b8cebb3513</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 18:37:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>38b5a1602a064e1a962535a38076da84</sys_id>
+        <sys_metadata>b585f76c87854110de3f21b8cebb3521</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Repo</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent display_value="">eb31391887c5cdd0e9baa8ec0ebb35b6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_b585f76c87854110de3f21b8cebb3521</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_b585f76c87854110de3f21b8cebb3521">e8f6b555870d8510de3f21b8cebb358a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 18:37:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

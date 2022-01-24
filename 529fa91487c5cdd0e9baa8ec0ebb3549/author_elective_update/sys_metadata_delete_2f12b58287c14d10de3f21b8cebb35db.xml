@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Add a User to AD">8767b195870d8510de3f21b8cebb352f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 18:40:37</sys_created_on>
+        <sys_id>ef873995870d8510de3f21b8cebb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add a User to AD</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ef873995870d8510de3f21b8cebb35bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 18:40:37</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sc_cat_item_catalog_ef873995870d8510de3f21b8cebb35bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add a User to AD">8767b195870d8510de3f21b8cebb352f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-13 18:40:37</sys_created_on><sys_id>ef873995870d8510de3f21b8cebb35bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Add a User to AD</sys_name><sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package><sys_policy/><sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope><sys_update_name>sc_cat_item_catalog_ef873995870d8510de3f21b8cebb35bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-13 18:40:37</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-659863940</payload_hash>
+        <record_name>Service Catalog.Add a User to AD</record_name>
+        <reverted_from/>
+        <source>5e9fa91487c5cdd0e9baa8ec0ebb354b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 18:40:37</sys_created_on>
+        <sys_id>6b873995870d8510de3f21b8cebb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e54bde22d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-13 18:40:37</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>af873995ec0d8510ef2d95e8521c32c2</update_guid>
+        <update_guid_history>af873995ec0d8510ef2d95e8521c32c2:-659863940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Add a User to AD">f3873995870d8510de3f21b8cebb35cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-16 02:12:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2f12b58287c14d10de3f21b8cebb35db</sys_id>
+        <sys_metadata>ef873995870d8510de3f21b8cebb35bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent display_value="Move user">5312f94287c14d10de3f21b8cebb3563</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_2f12b58287c14d10de3f21b8cebb35db</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ef873995870d8510de3f21b8cebb35bf">6b873995870d8510de3f21b8cebb35c3</sys_update_version>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-16 02:12:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

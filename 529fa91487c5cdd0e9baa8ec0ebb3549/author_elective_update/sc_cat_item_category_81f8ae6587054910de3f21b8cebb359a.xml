@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Add a User to AD">8767b195870d8510de3f21b8cebb352f</sc_cat_item>
+        <sc_category display_value="Active Directory">03563b6c87854110de3f21b8cebb3587</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 16:54:55</sys_created_on>
+        <sys_id>81f8ae6587054910de3f21b8cebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Directory.Add a User to AD</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sc_cat_item_category_81f8ae6587054910de3f21b8cebb359a</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 16:54:55</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sc_cat_item_category_81f8ae6587054910de3f21b8cebb359a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add a User to AD">8767b195870d8510de3f21b8cebb352f</sc_cat_item><sc_category display_value="Active Directory">03563b6c87854110de3f21b8cebb3587</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>chris.bennett</sys_created_by><sys_created_on>2022-01-14 16:54:55</sys_created_on><sys_id>81f8ae6587054910de3f21b8cebb359a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Directory.Add a User to AD</sys_name><sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package><sys_policy/><sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope><sys_update_name>sc_cat_item_category_81f8ae6587054910de3f21b8cebb359a</sys_update_name><sys_updated_by>chris.bennett</sys_updated_by><sys_updated_on>2022-01-14 16:54:55</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>564583844</payload_hash>
+        <record_name>Active Directory.Add a User to AD</record_name>
+        <reverted_from/>
+        <source>5e9fa91487c5cdd0e9baa8ec0ebb354b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 16:54:55</sys_created_on>
+        <sys_id>c5f8ae6587054910de3f21b8cebb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e59837a8e0000001</sys_recorded_at>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 16:54:55</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>8df8ae6521054910daad464fdbc1a89d</update_guid>
+        <update_guid_history>8df8ae6521054910daad464fdbc1a89d:564583844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Active Directory.Add a User to AD">15f8ae6587054910de3f21b8cebb35c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-01-14 16:54:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>205ddb686ab043fc8ab3e3276f2fd004</sys_id>
+        <sys_metadata>81f8ae6587054910de3f21b8cebb359a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Directory.Add a User to AD</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_81f8ae6587054910de3f21b8cebb359a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_81f8ae6587054910de3f21b8cebb359a">c5f8ae6587054910de3f21b8cebb35b7</sys_update_version>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-01-14 16:54:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

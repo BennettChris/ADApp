@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="domain_ad" table="x_snc_ad_apps_ad_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>domain_ad</element>
+            <name>x_snc_ad_apps_ad_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chris.bennett</sys_created_by>
+            <sys_created_on>2022-01-15 13:59:56</sys_created_on>
+            <sys_id>ef7a0bf987c9c910de3f21b8cebb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>domain_ad</sys_name>
+            <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ad_apps_ad_request_domain_ad</sys_update_name>
+            <sys_updated_by>chris.bennett</sys_updated_by>
+            <sys_updated_on>2022-01-15 13:59:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
