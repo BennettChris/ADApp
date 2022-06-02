@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
+        <integration_table>sys_data_source</integration_table>
+        <record_id>491c012087874150de3f21b8cebb35d8</record_id>
+        <source_structure display_value="FDac3cc1205d87415024a9d54bf673cd47">603cc12087874150de3f21b8cebb3548</source_structure>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-04-20 17:41:18</sys_created_on>
+        <sys_id>e43cc12087874150de3f21b8cebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_e43cc12087874150de3f21b8cebb354a</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-04-20 17:41:18</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+</record_update>

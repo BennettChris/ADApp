@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>test</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>test</name>
+        <record_id>289ca41c870fcd10de3f21b8cebb3567</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-04-19 20:44:40</sys_created_on>
+        <sys_id>689ca41c870fcd10de3f21b8cebb3566</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_689ca41c870fcd10de3f21b8cebb3566</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:44:40</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sn_ihub_integration_instance_689ca41c870fcd10de3f21b8cebb3566</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>test</description><integration_table>sys_data_source</integration_table><integration_type>data_import</integration_type><internal_name/><name>test</name><record_id>289ca41c870fcd10de3f21b8cebb3567</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>chris.bennett</sys_created_by><sys_created_on>2022-04-19 20:44:40</sys_created_on><sys_id>689ca41c870fcd10de3f21b8cebb3566</sys_id><sys_mod_count>1</sys_mod_count><sys_name>test</sys_name><sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package><sys_policy/><sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope><sys_update_name>sn_ihub_integration_instance_689ca41c870fcd10de3f21b8cebb3566</sys_update_name><sys_updated_by>chris.bennett</sys_updated_by><sys_updated_on>2022-04-19 20:44:40</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>-1448354508</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>f1a8e3f887914910de3f21b8cebb35a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-04-19 20:44:40</sys_created_on>
+        <sys_id>f49ca41c870fcd10de3f21b8cebb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804391f43c0000001</sys_recorded_at>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:44:40</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>fc9ca41c0b0fcd1091c30b5b651b31ad</update_guid>
+        <update_guid_history>fc9ca41c0b0fcd1091c30b5b651b31ad:-1448354508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">c6318a6487cb4150de3f21b8cebb35fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-04-20 21:32:58</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>3168c0f2dffd4854a95851230702cd10</sys_id>
+        <sys_metadata>689ca41c870fcd10de3f21b8cebb3566</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_689ca41c870fcd10de3f21b8cebb3566</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_689ca41c870fcd10de3f21b8cebb3566">f49ca41c870fcd10de3f21b8cebb35ae</sys_update_version>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-04-20 21:32:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

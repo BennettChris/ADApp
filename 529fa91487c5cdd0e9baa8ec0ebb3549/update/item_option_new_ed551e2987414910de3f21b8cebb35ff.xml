@@ -40,11 +40,11 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>email_alias</name>
-        <order>400</order>
+        <order>700</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What is the email for the user</question_text>
+        <question_text>Enter the email alias for the user</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -66,16 +66,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>chris.bennett</sys_created_by>
-        <sys_created_on>2022-01-14 15:53:02</sys_created_on>
+        <sys_created_on>2022-01-18 15:37:16</sys_created_on>
         <sys_id>ed551e2987414910de3f21b8cebb35ff</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>What is the email for the user</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Enter the email alias for the user</sys_name>
         <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
         <sys_policy/>
         <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
         <sys_update_name>item_option_new_ed551e2987414910de3f21b8cebb35ff</sys_update_name>
         <sys_updated_by>chris.bennett</sys_updated_by>
-        <sys_updated_on>2022-01-15 14:30:51</sys_updated_on>
+        <sys_updated_on>2022-01-26 02:46:01</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

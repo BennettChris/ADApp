@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Add a User to AD">8767b195870d8510de3f21b8cebb352f</cat_item>
         <category/>
@@ -40,7 +40,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>user_login_id</name>
-        <order>300</order>
+        <order>400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -66,16 +66,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>chris.bennett</sys_created_by>
-        <sys_created_on>2022-01-14 19:05:34</sys_created_on>
+        <sys_created_on>2022-01-18 15:37:16</sys_created_on>
         <sys_id>e69603e187094910de3f21b8cebb3500</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>User ID</sys_name>
         <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
         <sys_policy/>
         <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
         <sys_update_name>item_option_new_e69603e187094910de3f21b8cebb3500</sys_update_name>
-        <sys_updated_by>chris.bennett</sys_updated_by>
-        <sys_updated_on>2022-01-15 14:04:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-25 21:12:33</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

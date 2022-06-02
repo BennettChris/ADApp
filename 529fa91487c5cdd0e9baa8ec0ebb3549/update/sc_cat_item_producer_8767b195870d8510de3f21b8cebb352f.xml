@@ -70,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-13 18:40:01</sys_created_on>
         <sys_id>8767b195870d8510de3f21b8cebb352f</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Add a User to AD</sys_name>
         <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
         <sys_policy/>
         <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
         <sys_update_name>sc_cat_item_producer_8767b195870d8510de3f21b8cebb352f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-01-15 14:31:19</sys_updated_on>
+        <sys_updated_on>2022-01-26 02:48:56</sys_updated_on>
         <table_name>x_snc_ad_apps_ad_request</table_name>
         <taxonomy_topic/>
         <template/>

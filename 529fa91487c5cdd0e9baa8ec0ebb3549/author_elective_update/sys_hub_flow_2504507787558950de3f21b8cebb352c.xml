@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>e7099349ffb2101088e94ee9453bf1a8</copied_from>
+        <copied_from_name>Flow Template: Send a notificati</copied_from_name>
+        <description/>
+        <internal_name>aes_teams_space</internal_name>
+        <label_cache>[{"name":"Created_1.current.current","label":"Trigger➛Record","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>AES Teams space</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2504507787558950de3f21b8cebb352c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AES Teams space</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_hub_flow_2504507787558950de3f21b8cebb352c</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=2504507787558950de3f21b8cebb352c"/>
+    <sys_variable_value action="DELETE" query="document_key=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=2504507787558950de3f21b8cebb352c^sys_idNOT INb104507787558950de3f21b8cebb359c"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment>During setup, the User specifies the table to use in the Flow.</comment>
+        <display_text/>
+        <flow display_value="AES Teams space">2504507787558950de3f21b8cebb352c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>b104507787558950de3f21b8cebb359c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=b104507787558950de3f21b8cebb359c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b104507787558950de3f21b8cebb359c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>3504507787558950de3f21b8cebb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b104507787558950de3f21b8cebb359c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>f504507787558950de3f21b8cebb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="DELETE" query="flow=2504507787558950de3f21b8cebb352c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=2504507787558950de3f21b8cebb352c^sys_idNOT INa104507787558950de3f21b8cebb352d"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>2504507787558950de3f21b8cebb352c</id>
+        <name>AES Teams space</name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>a104507787558950de3f21b8cebb352d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=a104507787558950de3f21b8cebb352d"/>
+    <sys_hub_flow_input action="DELETE" query="model=2504507787558950de3f21b8cebb352c^sys_idNOT IN3504507787558950de3f21b8cebb3547,f104507787558950de3f21b8cebb3536"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="AES Teams space">2504507787558950de3f21b8cebb352c</model>
+        <model_id>2504507787558950de3f21b8cebb352c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>3504507787558950de3f21b8cebb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="AES Teams space">2504507787558950de3f21b8cebb352c</model>
+        <model_id>2504507787558950de3f21b8cebb352c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>f104507787558950de3f21b8cebb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_action_instance action="DELETE" query="flow=2504507787558950de3f21b8cebb352c^sys_idNOT INf104507787558950de3f21b8cebb3598"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <comment>During setup, the User has no additional setup. User must go through the process of getting a Teams webhook.</comment>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="AES Teams space">2504507787558950de3f21b8cebb352c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>f104507787558950de3f21b8cebb3598</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+        <ui_id>53b5a849-a872-4644-9aa9-1f87e1fa18ef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=f104507787558950de3f21b8cebb3598"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f104507787558950de3f21b8cebb3598</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>3d04507787558950de3f21b8cebb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <value> </value>
+        <variable display_value="Webhook URL">689822431324030039a039ed9344b088</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f104507787558950de3f21b8cebb3598</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>7104507787558950de3f21b8cebb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <value>A new record has been added to : </value>
+        <variable display_value="Message">b09822431324030039a039ed9344b0c7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f104507787558950de3f21b8cebb3598</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>7904507787558950de3f21b8cebb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <value> </value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_549822431324030039a039ed9344b085^id=f104507787558950de3f21b8cebb3598"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=f104507787558950de3f21b8cebb3598"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f104507787558950de3f21b8cebb3598"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2504507787558950de3f21b8cebb352c"/>
+    <sys_hub_flow_variable action="DELETE" query="model=2504507787558950de3f21b8cebb352c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c^sys_idNOT IN7904507787558950de3f21b8cebb3549,b504507787558950de3f21b8cebb3546"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>7904507787558950de3f21b8cebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:16</sys_created_on>
+        <sys_id>b504507787558950de3f21b8cebb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_2504507787558950de3f21b8cebb352c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_2504507787558950de3f21b8cebb352c"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=2504507787558950de3f21b8cebb352c"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=2504507787558950de3f21b8cebb352c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</application>
+        <file_path/>
+        <instance_id>a122f7bbdb98c510f37acac50596196d</instance_id>
+        <instance_name>hoosiersdemo</instance_name>
+        <name>sys_hub_flow_2504507787558950de3f21b8cebb352c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;e7099349ffb2101088e94ee9453bf1a8&lt;/copied_from&gt;&lt;copied_from_name&gt;Flow Template: Send a notificati&lt;/copied_from_name&gt;&lt;description/&gt;&lt;internal_name&gt;aes_teams_space&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current.current","label":"Trigger➛Record","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.table_name","label":"Trigger➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;AES Teams space&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2504507787558950de3f21b8cebb352c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AES Teams space&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AD Apps" source="x_snc_ad_apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_2504507787558950de3f21b8cebb352c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=2504507787558950de3f21b8cebb352c^sys_idNOT INb104507787558950de3f21b8cebb359c"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment&gt;During setup, the User specifies the table to use in the Flow.&lt;/comment&gt;&lt;display_text/&gt;&lt;flow display_value="AES Teams space"&gt;2504507787558950de3f21b8cebb352c&lt;/flow&gt;&lt;name&gt;Created&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b104507787558950de3f21b8cebb359c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b104507787558950de3f21b8cebb359c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b104507787558950de3f21b8cebb359c&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;3504507787558950de3f21b8cebb359d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;value&gt;^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;66aadea0c31322002841b63b12d3aebf&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;b104507787558950de3f21b8cebb359c&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;f504507787558950de3f21b8cebb359d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;value&gt;incident&lt;/value&gt;&lt;variable display_value="Table"&gt;cfca92e0c31322002841b63b12d3ae00&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=2504507787558950de3f21b8cebb352c^sys_idNOT INa104507787558950de3f21b8cebb352d"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2504507787558950de3f21b8cebb352c&lt;/id&gt;&lt;name&gt;AES Teams space&lt;/name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;a104507787558950de3f21b8cebb352d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a104507787558950de3f21b8cebb352d"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=2504507787558950de3f21b8cebb352c^sys_idNOT IN3504507787558950de3f21b8cebb3547,f104507787558950de3f21b8cebb3536"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="AES Teams space"&gt;2504507787558950de3f21b8cebb352c&lt;/model&gt;&lt;model_id&gt;2504507787558950de3f21b8cebb352c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;3504507787558950de3f21b8cebb3547&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="AES Teams space"&gt;2504507787558950de3f21b8cebb352c&lt;/model&gt;&lt;model_id&gt;2504507787558950de3f21b8cebb352c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;f104507787558950de3f21b8cebb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=2504507787558950de3f21b8cebb352c^sys_idNOT INf104507787558950de3f21b8cebb3598"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Post a Message"&gt;549822431324030039a039ed9344b085&lt;/action_type&gt;&lt;action_type_parent display_value="Post a Message"&gt;23be39c713e0030039a039ed9344b058&lt;/action_type_parent&gt;&lt;comment&gt;During setup, the User has no additional setup. User must go through the process of getting a Teams webhook.&lt;/comment&gt;&lt;compiled_snapshot&gt;549822431324030039a039ed9344b085&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="AES Teams space"&gt;2504507787558950de3f21b8cebb352c&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;f104507787558950de3f21b8cebb3598&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;ui_id&gt;53b5a849-a872-4644-9aa9-1f87e1fa18ef&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f104507787558950de3f21b8cebb3598"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f104507787558950de3f21b8cebb3598&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;3d04507787558950de3f21b8cebb359b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;value&gt; &lt;/value&gt;&lt;variable display_value="Webhook URL"&gt;689822431324030039a039ed9344b088&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f104507787558950de3f21b8cebb3598&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;7104507787558950de3f21b8cebb359b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;value&gt;A new record has been added to : &lt;/value&gt;&lt;variable display_value="Message"&gt;b09822431324030039a039ed9344b0c7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;f104507787558950de3f21b8cebb3598&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:17&lt;/sys_created_on&gt;&lt;sys_id&gt;7904507787558950de3f21b8cebb359b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:17&lt;/sys_updated_on&gt;&lt;value&gt; &lt;/value&gt;&lt;variable display_value="Title"&gt;f49822431324030039a039ed9344b0bb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_549822431324030039a039ed9344b085^id=f104507787558950de3f21b8cebb3598"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=f104507787558950de3f21b8cebb3598"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f104507787558950de3f21b8cebb3598"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c^sys_idNOT IN7904507787558950de3f21b8cebb3549,b504507787558950de3f21b8cebb3546"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;7904507787558950de3f21b8cebb3549&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="AD Apps" source="x_snc_ad_apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;chris.bennett&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 16:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;b504507787558950de3f21b8cebb3546&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="AD Apps" source="x_snc_ad_apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AD Apps"&gt;529fa91487c5cdd0e9baa8ec0ebb3549&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;chris.bennett&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 16:06:16&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=2504507787558950de3f21b8cebb352c"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=2504507787558950de3f21b8cebb352c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1597326822</payload_hash>
+        <record_name>AES Teams space</record_name>
+        <reverted_from/>
+        <source>f1a8e3f887914910de3f21b8cebb35a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:06:17</sys_created_on>
+        <sys_id>0a04507787558950de3f21b8cebb35b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ebb2fc69f0000001</sys_recorded_at>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:06:17</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4e045077515589504d228515a1e867b0</update_guid>
+        <update_guid_history>4e045077515589504d228515a1e867b0:-1597326822,f9045077805589507c024162dbb77c33:1836065034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-02-02 16:10:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>08a2bbd985334dedb78619cf1ee270c9</sys_id>
+        <sys_metadata>2504507787558950de3f21b8cebb352c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AES Teams space</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_scope_delete display_value="">18666f52bf7b4ba0890c6fcb011a6040</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_2504507787558950de3f21b8cebb352c</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_2504507787558950de3f21b8cebb352c">0a04507787558950de3f21b8cebb35b1</sys_update_version>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-02-02 16:10:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

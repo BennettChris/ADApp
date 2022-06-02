@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="AD Request" max_length="40" name="x_snc_ad_apps_ad_request" sizeclass="13" type="collection">
         <element label="Department" max_length="80" name="department" type="string"/>
+        <element label="Disable user" max_length="40" name="disable_user" type="boolean"/>
         <element label="Display Name" max_length="40" name="display_name" type="string"/>
         <element choice="3" default="@wg6xq.onmicrosoft.com" label="Domain AD" max_length="40" name="domain_ad" read_only="true" type="string">
             <choice/>
         </element>
         <element label="Email Alias" max_length="80" name="email_alias" type="string"/>
+        <element label="First name" max_length="40" name="first_name" type="string"/>
+        <element label="Group name" max_length="40" name="group_name" type="string"/>
+        <element label="Last name" max_length="40" name="last_name" type="string"/>
+        <element label="Middle initial" max_length="40" name="middle_initial" type="string"/>
+        <element label="New department" max_length="40" name="new_department" type="string"/>
+        <element label="New group name" max_length="40" name="new_group_name" type="string"/>
         <element default="Hoosiers12!@" label="Temp Password" max_length="255" name="temp_password" type="password2"/>
         <element label="User Login ID" max_length="80" name="user_login_id" type="string"/>
     </element>
