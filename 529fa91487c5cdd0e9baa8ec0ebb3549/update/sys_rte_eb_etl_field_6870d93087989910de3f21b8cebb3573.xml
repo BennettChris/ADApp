@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>due_date</field>
+        <name>Due date</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>chris.bennett</sys_created_by>
+        <sys_created_on>2022-06-22 15:56:50</sys_created_on>
+        <sys_id>6870d93087989910de3f21b8cebb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Due date</sys_name>
+        <sys_package display_value="AD Apps" source="x_snc_ad_apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="data import_etl_ihub">1c70d13087989910de3f21b8cebb3567</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_task">e870d93087989910de3f21b8cebb3515</sys_rte_eb_entity>
+        <sys_scope display_value="AD Apps">529fa91487c5cdd0e9baa8ec0ebb3549</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_6870d93087989910de3f21b8cebb3573</sys_update_name>
+        <sys_updated_by>chris.bennett</sys_updated_by>
+        <sys_updated_on>2022-06-22 15:56:50</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>
